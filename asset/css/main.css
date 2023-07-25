@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+.content {
+  max-width: calc(100% - 270px);
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Commit */
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 12px 24px;
+  font-size: 1.4rem;
+  color: #ffffff;
+  border-radius: 999px;
+  background-color: #171100;
+}
+.header.fixed{
+    position: sticky;
+    top:-32px;
+}
+/* ####HEADER### */
+.header {
+  background-color: #fffcf4;
+}
+.navbar {     
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+.header .navbar {
+  display: flex;
+}
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+}
+.nav li {
+  padding: 0 21px;
+}
+.nav li:hover > a:not(.font) {
+    color: #333;
+    font-weight: 600;
+}
+.nav li > a {
+  color: #5f5b53;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.navbar li .font {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #171100;
+}
+.navbar li .font::before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #171100;
+  bottom: 0;
+}
+.btn-header {
+  padding: 11px 41px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 49px;
+}
+.btn-header:hover {
+    opacity: 0.6;
+}
